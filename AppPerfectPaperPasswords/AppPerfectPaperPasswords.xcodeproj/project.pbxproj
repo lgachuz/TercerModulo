@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499BBB909595FB7CDFDF03C6 /* Pods_AppPerfectPaperPasswords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7707E50FD3BA26FB23DAF35 /* Pods_AppPerfectPaperPasswords.framework */; };
 		CF16C32E23EA223B0024A9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16C32D23EA223B0024A9BC /* AppDelegate.swift */; };
 		CF16C33023EA223B0024A9BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16C32F23EA223B0024A9BC /* SceneDelegate.swift */; };
 		CF16C33223EA223B0024A9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16C33123EA223B0024A9BC /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0D4B2BFA1ACA9987758A2D /* Pods-AppPerfectPaperPasswords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppPerfectPaperPasswords.release.xcconfig"; path = "Target Support Files/Pods-AppPerfectPaperPasswords/Pods-AppPerfectPaperPasswords.release.xcconfig"; sourceTree = "<group>"; };
+		BF655D5DDEB0441E9D415087 /* Pods-AppPerfectPaperPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppPerfectPaperPasswords.debug.xcconfig"; path = "Target Support Files/Pods-AppPerfectPaperPasswords/Pods-AppPerfectPaperPasswords.debug.xcconfig"; sourceTree = "<group>"; };
 		CF16C32A23EA223B0024A9BC /* AppPerfectPaperPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPerfectPaperPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF16C32D23EA223B0024A9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF16C32F23EA223B0024A9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		CF16C33C23EA22420024A9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF16C33E23EA22420024A9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFECE54423EB32A40077EE79 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E7707E50FD3BA26FB23DAF35 /* Pods_AppPerfectPaperPasswords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppPerfectPaperPasswords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499BBB909595FB7CDFDF03C6 /* Pods_AppPerfectPaperPasswords.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4354C783C0E6E46B5A44637C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF655D5DDEB0441E9D415087 /* Pods-AppPerfectPaperPasswords.debug.xcconfig */,
+				0A0D4B2BFA1ACA9987758A2D /* Pods-AppPerfectPaperPasswords.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		862C11B083A3F8DAB2CDB4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7707E50FD3BA26FB23DAF35 /* Pods_AppPerfectPaperPasswords.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF16C32123EA223B0024A9BC = {
 			isa = PBXGroup;
 			children = (
 				CF16C32C23EA223B0024A9BC /* AppPerfectPaperPasswords */,
 				CF16C32B23EA223B0024A9BC /* Products */,
+				4354C783C0E6E46B5A44637C /* Pods */,
+				862C11B083A3F8DAB2CDB4A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF16C34123EA22420024A9BC /* Build configuration list for PBXNativeTarget "AppPerfectPaperPasswords" */;
 			buildPhases = (
+				F40910AE630111EA5219E352 /* [CP] Check Pods Manifest.lock */,
 				CF16C32623EA223B0024A9BC /* Sources */,
 				CF16C32723EA223B0024A9BC /* Frameworks */,
 				CF16C32823EA223B0024A9BC /* Resources */,
+				C4FE86FDE1309A53D584E9B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +165,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4FE86FDE1309A53D584E9B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppPerfectPaperPasswords/Pods-AppPerfectPaperPasswords-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppPerfectPaperPasswords/Pods-AppPerfectPaperPasswords-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppPerfectPaperPasswords/Pods-AppPerfectPaperPasswords-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40910AE630111EA5219E352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppPerfectPaperPasswords-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF16C32623EA223B0024A9BC /* Sources */ = {
@@ -290,6 +359,7 @@
 		};
 		CF16C34223EA22420024A9BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF655D5DDEB0441E9D415087 /* Pods-AppPerfectPaperPasswords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +378,7 @@
 		};
 		CF16C34323EA22420024A9BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0D4B2BFA1ACA9987758A2D /* Pods-AppPerfectPaperPasswords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
