@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,7 +52,6 @@
 				BF655D5DDEB0441E9D415087 /* Pods-AppPerfectPaperPasswords.debug.xcconfig */,
 				0A0D4B2BFA1ACA9987758A2D /* Pods-AppPerfectPaperPasswords.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,17 +84,41 @@
 		CF16C32C23EA223B0024A9BC /* AppPerfectPaperPasswords */ = {
 			isa = PBXGroup;
 			children = (
+				D44A5CD523F6744B003325BF /* Utility */,
+				D44A5CD323F6742E003325BF /* Controllers */,
+				D44A5CD223F6740C003325BF /* View */,
 				CF16C32D23EA223B0024A9BC /* AppDelegate.swift */,
 				CF16C32F23EA223B0024A9BC /* SceneDelegate.swift */,
-				CF16C33123EA223B0024A9BC /* ViewController.swift */,
-				CF16C33323EA223B0024A9BC /* Main.storyboard */,
 				CF16C33923EA22420024A9BC /* Assets.xcassets */,
-				CF16C33B23EA22420024A9BC /* LaunchScreen.storyboard */,
 				CF16C33E23EA22420024A9BC /* Info.plist */,
 				CF16C33623EA223B0024A9BC /* AppPerfectPaperPasswords.xcdatamodeld */,
-				CFECE54423EB32A40077EE79 /* Utility.swift */,
 			);
 			path = AppPerfectPaperPasswords;
+			sourceTree = "<group>";
+		};
+		D44A5CD223F6740C003325BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF16C33323EA223B0024A9BC /* Main.storyboard */,
+				CF16C33B23EA22420024A9BC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D44A5CD323F6742E003325BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF16C33123EA223B0024A9BC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D44A5CD523F6744B003325BF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CFECE54423EB32A40077EE79 /* Utility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

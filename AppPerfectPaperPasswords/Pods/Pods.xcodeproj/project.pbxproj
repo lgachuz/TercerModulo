@@ -53,12 +53,12 @@
 		478746406B7964CAC57BA12A7DB9C069 /* RijndaelSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RijndaelSwift.xcconfig; sourceTree = "<group>"; };
 		49D7FFB2FEDD6842A55BFDF3960BA9A9 /* UInt128-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UInt128-umbrella.h"; sourceTree = "<group>"; };
 		4A794AF8B3E71E8316E5C13568C5969F /* Precalculated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Precalculated.swift; path = Sources/RijndaelSwift/Precalculated.swift; sourceTree = "<group>"; };
-		57748D48E6BF8AB1A512DC89807D6449 /* Pods_AppPerfectPaperPasswords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppPerfectPaperPasswords.framework; path = "Pods-AppPerfectPaperPasswords.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57748D48E6BF8AB1A512DC89807D6449 /* Pods_AppPerfectPaperPasswords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppPerfectPaperPasswords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E73948986E6A2EFC0A2B3B36BECF39 /* RijndaelSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RijndaelSwift-prefix.pch"; sourceTree = "<group>"; };
 		6E89C9915300C2E5A332442B86C6BD12 /* RijndaelSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RijndaelSwift-umbrella.h"; sourceTree = "<group>"; };
-		7798C4479FA00F6CF8AFD0507E75BDDC /* RijndaelSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RijndaelSwift.framework; path = RijndaelSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7798C4479FA00F6CF8AFD0507E75BDDC /* RijndaelSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RijndaelSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9379BB9D6E15018B753C76E4101CF7 /* UInt128-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UInt128-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3A2398B64AAC08FFAE33F3B2C45F333 /* UInt128.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UInt128.modulemap; sourceTree = "<group>"; };
 		B668D164B83E30F7B557535948788FE8 /* RijndaelSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RijndaelSwift-dummy.m"; sourceTree = "<group>"; };
 		C2198B7317EE6CEE16A4224ACC472421 /* RijndaelBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RijndaelBlock.swift; path = Sources/RijndaelSwift/RijndaelBlock.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		D523351C576A038B01C677B993AFACFA /* RijndaelSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RijndaelSwift-Info.plist"; sourceTree = "<group>"; };
 		D6667CFA8C733B30299CFB8453F1033C /* UInt128.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UInt128.xcconfig; sourceTree = "<group>"; };
 		E4CE73685FDE41ECAE30519E84D7A7E6 /* Pods-AppPerfectPaperPasswords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppPerfectPaperPasswords.debug.xcconfig"; sourceTree = "<group>"; };
-		ECF9EA674639F5643AA8815C3A7263E2 /* UInt128.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UInt128.framework; path = UInt128.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF9EA674639F5643AA8815C3A7263E2 /* UInt128.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UInt128.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8923843013870BBDD8A16A5BA71CB7 /* UInt128-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UInt128-dummy.m"; sourceTree = "<group>"; };
 		FD91992AFB96D4C0DCD0AF39284A25D9 /* UInt128.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt128.swift; path = Sources/UInt128.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,7 +149,6 @@
 				FD91992AFB96D4C0DCD0AF39284A25D9 /* UInt128.swift */,
 				1744159A5FC7117542D7160DC70200AA /* Support Files */,
 			);
-			name = UInt128;
 			path = UInt128;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				2227084FFAF3A7699746778E0CBB9498 /* Utility.swift */,
 				E04CED9002AEDA3D50C45384BD596FF6 /* Support Files */,
 			);
-			name = RijndaelSwift;
 			path = RijndaelSwift;
 			sourceTree = "<group>";
 		};
@@ -318,6 +316,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					266F3C4F5DE248A2734DD9E2AED7EF06 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -613,7 +616,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -649,7 +652,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
